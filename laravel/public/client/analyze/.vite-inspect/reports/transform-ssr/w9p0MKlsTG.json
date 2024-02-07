@@ -1,0 +1,17 @@
+{
+  "resolvedId": "virtual:nuxt:E:/test/github/laravel-nuxt-template/laravel/public/client/css.mjs",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "",
+      "start": 1707303522360,
+      "end": 1707303522360
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1707303522360,
+      "end": 1707303522360,
+      "order": "normal"
+    }
+  ]
+}
