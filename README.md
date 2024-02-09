@@ -30,6 +30,8 @@ switch to client folder (nuxt app)
 
 ```
 cd client
+
+cp .env.example .env
 ```
 
 Make sure to install the dependencies:
