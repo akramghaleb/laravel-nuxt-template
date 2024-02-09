@@ -21,37 +21,37 @@
     "allowSyntheticDefaultImports": true,
     "paths": {
       "~": [
-        "../../client/client"
+        "../../../client/client"
       ],
       "@": [
-        "../../client/client"
+        "../../../client/client"
       ],
       "~~": [
-        "../../client"
+        "../../../client"
       ],
       "~~/*": [
-        "../../client/*"
+        "../../../client/*"
       ],
       "@@": [
-        "../../client"
+        "../../../client"
       ],
       "@@/*": [
-        "../../client/*"
+        "../../../client/*"
       ],
       "assets": [
-        "../../client/client/assets"
+        "../../../client/client/assets"
       ],
       "public": [
-        "../../client/client/public"
+        "../../../client/client/public"
       ],
       "#app": [
-        "../../node_modules/nuxt/dist/app"
+        "../../../client/node_modules/nuxt/dist/app"
       ],
       "#app/*": [
-        "../../node_modules/nuxt/dist/app/*"
+        "../../../client/node_modules/nuxt/dist/app/*"
       ],
       "vue-demi": [
-        "../../node_modules/nuxt/dist/app/compat/vue-demi"
+        "../../../client/node_modules/nuxt/dist/app/compat/vue-demi"
       ],
       "#vue-router": [
         "./vue-router-stub"
@@ -72,24 +72,22 @@
   },
   "include": [
     "./nuxt.d.ts",
-    "../../client/**/*",
-    "../../client/client/**/*",
-    "../../client/node_modules/@nuxt/devtools/runtime",
-    "../../client/node_modules/@nuxt/telemetry/runtime",
-    "../../client",
-    "../../node_modules/nuxt/dist/app",
-    "../../node_modules/nuxt/dist/app/compat/vue-demi",
+    "../../../client/**/*",
+    "../../../client/client/**/*",
+    "../../../client/node_modules/@nuxt/devtools/runtime",
+    "../../../client/node_modules/@nuxt/telemetry/runtime",
+    "../../../client",
     "./vue-router-stub",
     "./imports",
     "."
   ],
   "exclude": [
-    "../../client/node_modules",
+    "../../../client/node_modules",
     "../../../node_modules",
-    "../../node_modules/nuxt/node_modules",
-    "../../client/node_modules/@nuxt/devtools/runtime/server",
-    "../../client/node_modules/@nuxt/telemetry/runtime/server",
-    "../../client/dist",
-    "../../client/.output"
+    "../../../client/node_modules/nuxt/node_modules",
+    "../../../client/node_modules/@nuxt/devtools/runtime/server",
+    "../../../client/node_modules/@nuxt/telemetry/runtime/server",
+    "../../../client/dist",
+    "../../../client/.output"
   ]
 }

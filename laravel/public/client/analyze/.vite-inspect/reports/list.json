@@ -1,564 +1,43 @@
 {
-  "root": "E:/test/github/laravel-nuxt-template/laravel/client/client",
+  "root": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/client",
   "modules": [
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/client/node_modules/@nuxt/ui-templates/dist/templates/welcome.vue",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 207
+          "transform": 25
         },
         {
           "name": "vite:vue",
-          "transform": 31
+          "transform": 2
         },
         {
           "name": "nuxt:imports-transform",
-          "transform": 25
-        }
-      ],
-      "virtual": false,
-      "totalTime": 263,
-      "invokeCount": 1,
-      "sourceSize": 106155,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/client/node_modules/@nuxt/ui-templates/dist/templates/welcome.vue?vue&type=style&index=0&scoped=46326706&lang.css",
-      "deps": [],
-      "plugins": [
+          "transform": 1
+        },
         {
-          "name": "vite:vue",
+          "name": "nuxt:components-loader",
           "transform": 0
         },
         {
-          "name": "vite:css",
-          "transform": 359
-        },
-        {
-          "name": "vite:vue",
-          "transform": 33
-        }
-      ],
-      "virtual": true,
-      "totalTime": 392,
-      "invokeCount": 1,
-      "sourceSize": 11760,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/client/node_modules/@unhead/dom/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 198
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 198,
-      "invokeCount": 1,
-      "sourceSize": 4451,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/client/node_modules/@unhead/shared/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 131
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 12
-        },
-        {
           "name": "vite:resolve",
           "resolveId": 0
         },
         {
-          "name": "vite:resolve",
+          "name": "ssr-styles",
           "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 131,
-      "invokeCount": 1,
-      "sourceSize": 20287,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/client/node_modules/@unhead/vue/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 397
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 2
-        }
-      ],
-      "virtual": false,
-      "totalTime": 397,
-      "invokeCount": 1,
-      "sourceSize": 3864,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/client/node_modules/@unhead/vue/dist/shared/vue.cf295fb1.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 116
-        },
-        {
-          "name": "vite:define",
-          "transform": 63
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 12
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 179,
-      "invokeCount": 1,
-      "sourceSize": 2633,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/client/node_modules/@unhead/vue/dist/shared/vue.f36acd1f.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 123
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 12
-        }
-      ],
-      "virtual": false,
-      "totalTime": 123,
-      "invokeCount": 1,
-      "sourceSize": 1035,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/client/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 22
-        },
-        {
-          "name": "vite:define",
-          "transform": 6
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 31
         }
       ],
       "virtual": false,
       "totalTime": 28,
-      "invokeCount": 1,
-      "sourceSize": 34327,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/client/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 400
-        },
-        {
-          "name": "vite:define",
-          "transform": 76
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 15
-        }
-      ],
-      "virtual": false,
-      "totalTime": 476,
-      "invokeCount": 1,
-      "sourceSize": 250638,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/client/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 187
-        },
-        {
-          "name": "vite:define",
-          "transform": 82
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 2
-        }
-      ],
-      "virtual": false,
-      "totalTime": 269,
-      "invokeCount": 1,
-      "sourceSize": 48745,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/client/node_modules/@vue/shared/dist/shared.esm-bundler.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 396
-        },
-        {
-          "name": "vite:define",
-          "transform": 55
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 3
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 451,
-      "invokeCount": 1,
-      "sourceSize": 20762,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/client/node_modules/destr/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 115
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 13
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 115,
-      "invokeCount": 1,
-      "sourceSize": 2207,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/client/node_modules/hookable/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 169
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 21
-        }
-      ],
-      "virtual": false,
-      "totalTime": 169,
-      "invokeCount": 1,
-      "sourceSize": 8302,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/client/node_modules/ofetch/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 111
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 2
-        }
-      ],
-      "virtual": false,
-      "totalTime": 111,
-      "invokeCount": 1,
-      "sourceSize": 891,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/client/node_modules/ofetch/dist/shared/ofetch.00501375.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 195
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 14
-        }
-      ],
-      "virtual": false,
-      "totalTime": 195,
-      "invokeCount": 1,
-      "sourceSize": 8818,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/client/node_modules/ufo/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 133
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 71
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 133,
-      "invokeCount": 1,
-      "sourceSize": 18202,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/client/node_modules/unctx/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 157
-        }
-      ],
-      "virtual": false,
-      "totalTime": 157,
-      "invokeCount": 1,
-      "sourceSize": 3878,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/client/node_modules/unhead/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 129
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 30
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 129,
-      "invokeCount": 1,
-      "sourceSize": 20887,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/client/node_modules/vue/dist/vue.runtime.esm-bundler.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 134
-        },
-        {
-          "name": "vite:define",
-          "transform": 120
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 3
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 2
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 2
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 12
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 2
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 254,
-      "invokeCount": 1,
-      "sourceSize": 580,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 235
-        },
-        {
-          "name": "vite:vue",
-          "transform": 14
-        },
-        {
-          "name": "nuxt:imports-transform",
-          "transform": 2
-        },
-        {
-          "name": "nuxt:components-loader",
-          "transform": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 2
-        },
-        {
-          "name": "ssr-styles",
-          "resolveId": 2
-        }
-      ],
-      "virtual": false,
-      "totalTime": 252,
       "invokeCount": 1,
       "sourceSize": 5283,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=c3e7ddbd&lang.css",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=8e38b8ef&lang.css",
       "deps": [],
       "plugins": [
         {
@@ -567,925 +46,21 @@
         },
         {
           "name": "vite:css",
-          "transform": 191
+          "transform": 89
         },
         {
           "name": "vite:vue",
-          "transform": 10
+          "transform": 2
         }
       ],
       "virtual": true,
-      "totalTime": 201,
+      "totalTime": 91,
       "invokeCount": 1,
       "sourceSize": 3195,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 257
-        },
-        {
-          "name": "vite:vue",
-          "transform": 3
-        },
-        {
-          "name": "nuxt:imports-transform",
-          "transform": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "ssr-styles",
-          "resolveId": 2
-        }
-      ],
-      "virtual": false,
-      "totalTime": 261,
-      "invokeCount": 1,
-      "sourceSize": 3283,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=020ddbd6&lang.css",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:vue",
-          "transform": 0
-        },
-        {
-          "name": "vite:css",
-          "transform": 187
-        },
-        {
-          "name": "vite:vue",
-          "transform": 4
-        }
-      ],
-      "virtual": true,
-      "totalTime": 191,
-      "invokeCount": 1,
-      "sourceSize": 1494,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 253
-        },
-        {
-          "name": "vite:vue",
-          "transform": 3
-        },
-        {
-          "name": "nuxt:imports-transform",
-          "transform": 2
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "ssr-styles",
-          "resolveId": 2
-        }
-      ],
-      "virtual": false,
-      "totalTime": 258,
-      "invokeCount": 1,
-      "sourceSize": 4089,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=9878c78e&lang.css",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:vue",
-          "transform": 0
-        },
-        {
-          "name": "vite:css",
-          "transform": 189
-        },
-        {
-          "name": "vite:vue",
-          "transform": 6
-        }
-      ],
-      "virtual": true,
-      "totalTime": 195,
-      "invokeCount": 1,
-      "sourceSize": 1946,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@unhead/dom/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 147
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 147,
-      "invokeCount": 1,
-      "sourceSize": 4451,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@unhead/shared/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 172
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 172,
-      "invokeCount": 1,
-      "sourceSize": 20287,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@unhead/vue/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 105
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 2
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 105,
-      "invokeCount": 1,
-      "sourceSize": 3864,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@unhead/vue/dist/shared/vue.cf295fb1.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 172
-        },
-        {
-          "name": "vite:define",
-          "transform": 153
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 325,
-      "invokeCount": 1,
-      "sourceSize": 2633,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@unhead/vue/dist/shared/vue.f36acd1f.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 170
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 170,
-      "invokeCount": 1,
-      "sourceSize": 1035,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@vue/devtools-api/lib/esm/api/api.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 25
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 25,
-      "invokeCount": 1,
-      "sourceSize": 11,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@vue/devtools-api/lib/esm/api/app.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 24
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 24,
-      "invokeCount": 1,
-      "sourceSize": 11,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@vue/devtools-api/lib/esm/api/component.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 28
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 28,
-      "invokeCount": 1,
-      "sourceSize": 11,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@vue/devtools-api/lib/esm/api/context.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 29
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 29,
-      "invokeCount": 1,
-      "sourceSize": 11,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@vue/devtools-api/lib/esm/api/hooks.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 30
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 30,
-      "invokeCount": 1,
-      "sourceSize": 11,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@vue/devtools-api/lib/esm/api/index.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 200
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 200,
-      "invokeCount": 1,
-      "sourceSize": 169,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@vue/devtools-api/lib/esm/api/util.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 27
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 27,
-      "invokeCount": 1,
-      "sourceSize": 11,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@vue/devtools-api/lib/esm/const.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 201
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 201,
-      "invokeCount": 1,
-      "sourceSize": 114,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@vue/devtools-api/lib/esm/env.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 198
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 2
-        }
-      ],
-      "virtual": false,
-      "totalTime": 198,
-      "invokeCount": 1,
-      "sourceSize": 383,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@vue/devtools-api/lib/esm/index.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 69
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 69,
-      "invokeCount": 1,
-      "sourceSize": 1009,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@vue/devtools-api/lib/esm/plugin.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 201
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 201,
-      "invokeCount": 1,
-      "sourceSize": 11,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@vue/devtools-api/lib/esm/proxy.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 198
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 198,
-      "invokeCount": 1,
-      "sourceSize": 3533,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@vue/devtools-api/lib/esm/time.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 202
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 202,
-      "invokeCount": 1,
-      "sourceSize": 640,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/cookie-es/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 202
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 6
-        }
-      ],
-      "virtual": false,
-      "totalTime": 202,
-      "invokeCount": 1,
-      "sourceSize": 3644,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/defu/dist/defu.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 209
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 4
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 209,
-      "invokeCount": 1,
-      "sourceSize": 2052,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/destr/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 109
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 2
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 4
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 109,
-      "invokeCount": 1,
-      "sourceSize": 2207,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/devalue/index.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 176
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 2
-        }
-      ],
-      "virtual": false,
-      "totalTime": 176,
-      "invokeCount": 1,
-      "sourceSize": 141,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/devalue/src/constants.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 63
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 63,
-      "invokeCount": 1,
-      "sourceSize": 183,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/devalue/src/parse.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 340
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 340,
-      "invokeCount": 1,
-      "sourceSize": 3053,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/devalue/src/stringify.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 342
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 342,
-      "invokeCount": 1,
-      "sourceSize": 4304,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/devalue/src/uneval.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 338
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 338,
-      "invokeCount": 1,
-      "sourceSize": 6924,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/devalue/src/utils.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 68
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 68,
-      "invokeCount": 1,
-      "sourceSize": 1944,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/h3/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 203
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 203,
-      "invokeCount": 1,
-      "sourceSize": 61177,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/hookable/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 121
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 2
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 121,
-      "invokeCount": 1,
-      "sourceSize": 8302,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/iron-webcrypto/dist/index.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 205
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 3
-        }
-      ],
-      "virtual": false,
-      "totalTime": 205,
-      "invokeCount": 1,
-      "sourceSize": 11782,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/klona/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 125
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 125,
-      "invokeCount": 1,
-      "sourceSize": 1531,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/compat/idle-callback.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 233
-        },
-        {
-          "name": "replace",
-          "transform": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 233,
-      "invokeCount": 1,
-      "sourceSize": 456,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/components/injections.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 117
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 117,
-      "invokeCount": 1,
-      "sourceSize": 103,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/components/island-renderer.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 118
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 118,
-      "invokeCount": 1,
-      "sourceSize": 711,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/components/nuxt-error-page.vue",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 93
-        },
-        {
-          "name": "vite:vue",
-          "transform": 19
-        },
-        {
-          "name": "replace",
-          "transform": 1
-        },
-        {
-          "name": "vite:build-import-analysis",
-          "transform": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 114,
-      "invokeCount": 1,
-      "sourceSize": 1688,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/components/nuxt-link.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 330
-        },
-        {
-          "name": "replace",
-          "transform": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 331,
-      "invokeCount": 1,
-      "sourceSize": 10679,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/components/nuxt-root.vue",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
       "deps": [],
       "plugins": [
         {
@@ -1494,180 +69,106 @@
         },
         {
           "name": "vite:vue",
-          "transform": 35
-        },
-        {
-          "name": "replace",
-          "transform": 2
-        },
-        {
-          "name": "nuxt:tree-shake-composables:transform",
-          "transform": 6
-        },
-        {
-          "name": "vite:build-import-analysis",
-          "transform": 2
-        }
-      ],
-      "virtual": false,
-      "totalTime": 87,
-      "invokeCount": 1,
-      "sourceSize": 2456,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/components/test-component-wrapper.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 115
-        },
-        {
-          "name": "vite:build-import-analysis",
-          "transform": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 115,
-      "invokeCount": 1,
-      "sourceSize": 943,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/composables/chunk.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 128
-        },
-        {
-          "name": "replace",
-          "transform": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 128,
-      "invokeCount": 1,
-      "sourceSize": 889,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/composables/error.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 119
-        },
-        {
-          "name": "replace",
           "transform": 1
         },
         {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 120,
-      "invokeCount": 1,
-      "sourceSize": 1236,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/composables/manifest.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 128
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 128,
-      "invokeCount": 1,
-      "sourceSize": 984,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/composables/payload.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 106
-        },
-        {
-          "name": "replace",
-          "transform": 0
-        },
-        {
-          "name": "vite:build-import-analysis",
+          "name": "nuxt:imports-transform",
           "transform": 0
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
+          "resolveId": 0
         },
         {
-          "name": "vite:resolve",
+          "name": "ssr-styles",
           "resolveId": 1
         }
       ],
       "virtual": false,
-      "totalTime": 106,
+      "totalTime": 43,
       "invokeCount": 1,
-      "sourceSize": 3862,
+      "sourceSize": 3283,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/composables/preload.js",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=5741bfc2&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 4
+        },
+        {
+          "name": "vite:vue",
+          "transform": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 5,
+      "invokeCount": 1,
+      "sourceSize": 1494,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 30
+        },
+        {
+          "name": "vite:vue",
+          "transform": 2
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 32,
+      "invokeCount": 1,
+      "sourceSize": 4089,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=d632b7e6&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 88
+        },
+        {
+          "name": "vite:vue",
+          "transform": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 89,
+      "invokeCount": 1,
+      "sourceSize": 1946,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@nuxt/ui-templates/dist/templates/welcome.vue",
       "deps": [],
       "plugins": [
         {
@@ -1675,74 +176,50 @@
           "transform": 60
         },
         {
-          "name": "replace",
-          "transform": 0
+          "name": "vite:vue",
+          "transform": 10
         },
         {
-          "name": "vite:resolve",
-          "resolveId": 1
+          "name": "nuxt:imports-transform",
+          "transform": 9
         }
       ],
       "virtual": false,
-      "totalTime": 60,
+      "totalTime": 79,
       "invokeCount": 1,
-      "sourceSize": 1600,
+      "sourceSize": 106155,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/composables/ready.js",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@nuxt/ui-templates/dist/templates/welcome.vue?vue&type=style&index=0&scoped=46326706&lang.css",
       "deps": [],
       "plugins": [
         {
-          "name": "vite:load-fallback",
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
           "transform": 129
         },
         {
-          "name": "replace",
-          "transform": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
+          "name": "vite:vue",
+          "transform": 9
         }
       ],
-      "virtual": false,
-      "totalTime": 129,
+      "virtual": true,
+      "totalTime": 138,
       "invokeCount": 1,
-      "sourceSize": 412,
+      "sourceSize": 11760,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/composables/router.js",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@unhead/dom/dist/index.mjs",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 194
-        },
-        {
-          "name": "replace",
-          "transform": 2
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
+          "transform": 58
         },
         {
           "name": "vite:resolve",
@@ -1751,126 +228,95 @@
         {
           "name": "vite:resolve",
           "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
         }
       ],
       "virtual": false,
-      "totalTime": 196,
+      "totalTime": 58,
       "invokeCount": 1,
-      "sourceSize": 5939,
+      "sourceSize": 4451,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/config.js",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@unhead/shared/dist/index.mjs",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 232
+          "transform": 59
         },
         {
-          "name": "replace",
-          "transform": 1
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 59,
+      "invokeCount": 1,
+      "sourceSize": 20287,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@unhead/vue/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 54
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 54,
+      "invokeCount": 1,
+      "sourceSize": 3864,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@unhead/vue/dist/shared/vue.cf295fb1.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 53
         },
         {
           "name": "vite:define",
-          "transform": 76
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "alias",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 309,
-      "invokeCount": 1,
-      "sourceSize": 1574,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/entry.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 11
-        },
-        {
-          "name": "replace",
-          "transform": 6
-        }
-      ],
-      "virtual": false,
-      "totalTime": 17,
-      "invokeCount": 1,
-      "sourceSize": 2382,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 176
-        },
-        {
-          "name": "replace",
-          "transform": 0
-        },
-        {
-          "name": "unctx:transform",
-          "transform": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 177,
-      "invokeCount": 1,
-      "sourceSize": 356,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/nuxt.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 121
-        },
-        {
-          "name": "replace",
-          "transform": 2
-        },
-        {
-          "name": "vite:define",
-          "transform": 134
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
+          "transform": 159
         },
         {
           "name": "vite:resolve",
@@ -1879,171 +325,35 @@
         {
           "name": "vite:resolve",
           "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "alias",
-          "resolveId": 214
-        },
-        {
-          "name": "alias",
-          "resolveId": 80
         }
       ],
       "virtual": false,
-      "totalTime": 257,
+      "totalTime": 212,
       "invokeCount": 1,
-      "sourceSize": 7278,
+      "sourceSize": 2633,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/plugins/check-outdated-build.client.js",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@unhead/vue/dist/shared/vue.f36acd1f.mjs",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 109
+          "transform": 54
         },
         {
-          "name": "replace",
-          "transform": 1
+          "name": "vite:resolve",
+          "resolveId": 0
         }
       ],
       "virtual": false,
-      "totalTime": 110,
+      "totalTime": 54,
       "invokeCount": 1,
-      "sourceSize": 795,
+      "sourceSize": 1035,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/plugins/chunk-reload.client.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 117
-        }
-      ],
-      "virtual": false,
-      "totalTime": 117,
-      "invokeCount": 1,
-      "sourceSize": 1042,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/plugins/payload.client.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 114
-        },
-        {
-          "name": "replace",
-          "transform": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 114,
-      "invokeCount": 1,
-      "sourceSize": 1107,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/plugins/revive-payload.client.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 86
-        },
-        {
-          "name": "unctx:transform",
-          "transform": 3
-        }
-      ],
-      "virtual": false,
-      "totalTime": 89,
-      "invokeCount": 1,
-      "sourceSize": 1661,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/plugins/router.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 97
-        },
-        {
-          "name": "replace",
-          "transform": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 98,
-      "invokeCount": 1,
-      "sourceSize": 7126,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/utils.js",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@vue/devtools-api/lib/esm/api/api.js",
       "deps": [],
       "plugins": [
         {
@@ -2058,96 +368,16 @@
       "virtual": false,
       "totalTime": 16,
       "invokeCount": 1,
-      "sourceSize": 84,
+      "sourceSize": 11,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/head/runtime/plugins/unhead.js",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@vue/devtools-api/lib/esm/api/app.js",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 92
-        },
-        {
-          "name": "replace",
-          "transform": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 92,
-      "invokeCount": 1,
-      "sourceSize": 1315,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/ohash/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 207
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 6
-        }
-      ],
-      "virtual": false,
-      "totalTime": 207,
-      "invokeCount": 1,
-      "sourceSize": 20179,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/pathe/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 229
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 229,
-      "invokeCount": 1,
-      "sourceSize": 272,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/pathe/dist/shared/pathe.ff20891b.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 340
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 340,
-      "invokeCount": 1,
-      "sourceSize": 6539,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/radix3/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 206
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 5
+          "transform": 17
         },
         {
           "name": "vite:resolve",
@@ -2155,13 +385,1551 @@
         }
       ],
       "virtual": false,
-      "totalTime": 206,
+      "totalTime": 17,
+      "invokeCount": 1,
+      "sourceSize": 11,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@vue/devtools-api/lib/esm/api/component.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 15
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 15,
+      "invokeCount": 1,
+      "sourceSize": 11,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@vue/devtools-api/lib/esm/api/context.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 16
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 16,
+      "invokeCount": 1,
+      "sourceSize": 11,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@vue/devtools-api/lib/esm/api/hooks.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 16
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 16,
+      "invokeCount": 1,
+      "sourceSize": 11,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@vue/devtools-api/lib/esm/api/index.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1,
+      "invokeCount": 1,
+      "sourceSize": 169,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@vue/devtools-api/lib/esm/api/util.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 16
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 16,
+      "invokeCount": 1,
+      "sourceSize": 11,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@vue/devtools-api/lib/esm/const.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 2,
+      "invokeCount": 1,
+      "sourceSize": 114,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@vue/devtools-api/lib/esm/env.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 3,
+      "invokeCount": 1,
+      "sourceSize": 383,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@vue/devtools-api/lib/esm/index.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1,
+      "invokeCount": 1,
+      "sourceSize": 1009,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@vue/devtools-api/lib/esm/plugin.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 11,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@vue/devtools-api/lib/esm/proxy.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1,
+      "invokeCount": 1,
+      "sourceSize": 3533,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@vue/devtools-api/lib/esm/time.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 2,
+      "invokeCount": 1,
+      "sourceSize": 640,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 2
+        },
+        {
+          "name": "vite:define",
+          "transform": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 5,
+      "invokeCount": 1,
+      "sourceSize": 34454,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 0
+        },
+        {
+          "name": "vite:define",
+          "transform": 36
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 36,
+      "invokeCount": 1,
+      "sourceSize": 250813,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 92
+        },
+        {
+          "name": "vite:define",
+          "transform": 183
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 275,
+      "invokeCount": 1,
+      "sourceSize": 49098,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@vue/shared/dist/shared.esm-bundler.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 2
+        },
+        {
+          "name": "vite:define",
+          "transform": 5
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 7,
+      "invokeCount": 1,
+      "sourceSize": 20762,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/cookie-es/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 68
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 68,
+      "invokeCount": 1,
+      "sourceSize": 3644,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/defu/dist/defu.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 70
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 70,
+      "invokeCount": 1,
+      "sourceSize": 2052,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/destr/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 62
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 62,
+      "invokeCount": 1,
+      "sourceSize": 2207,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/devalue/index.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 55
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 55,
+      "invokeCount": 1,
+      "sourceSize": 141,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/devalue/src/constants.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 12
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 12,
+      "invokeCount": 1,
+      "sourceSize": 183,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/devalue/src/parse.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 132
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 132,
+      "invokeCount": 1,
+      "sourceSize": 3053,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/devalue/src/stringify.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 133
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 133,
+      "invokeCount": 1,
+      "sourceSize": 4304,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/devalue/src/uneval.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 133
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 133,
+      "invokeCount": 1,
+      "sourceSize": 6924,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/devalue/src/utils.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 11
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 11,
+      "invokeCount": 1,
+      "sourceSize": 1944,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/h3/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 70
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 70,
+      "invokeCount": 1,
+      "sourceSize": 61177,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/hookable/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 65
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 65,
+      "invokeCount": 1,
+      "sourceSize": 8302,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/iron-webcrypto/dist/index.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 69
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 69,
+      "invokeCount": 1,
+      "sourceSize": 11782,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/klona/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 6
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 6,
+      "invokeCount": 1,
+      "sourceSize": 1531,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/compat/idle-callback.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 31
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 31,
+      "invokeCount": 1,
+      "sourceSize": 456,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/components/injections.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 61
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 61,
+      "invokeCount": 1,
+      "sourceSize": 103,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/components/island-renderer.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 60
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 60,
+      "invokeCount": 1,
+      "sourceSize": 711,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/components/nuxt-error-page.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 44
+        },
+        {
+          "name": "vite:vue",
+          "transform": 5
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:build-import-analysis",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 50,
+      "invokeCount": 1,
+      "sourceSize": 1688,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/components/nuxt-link.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 123
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 123,
+      "invokeCount": 1,
+      "sourceSize": 10679,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/components/nuxt-root.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 13
+        },
+        {
+          "name": "vite:vue",
+          "transform": 14
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "nuxt:tree-shake-composables:transform",
+          "transform": 2
+        },
+        {
+          "name": "vite:build-import-analysis",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 30,
+      "invokeCount": 1,
+      "sourceSize": 2456,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/components/test-component-wrapper.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 43
+        },
+        {
+          "name": "vite:build-import-analysis",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 43,
+      "invokeCount": 1,
+      "sourceSize": 943,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/composables/chunk.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 49
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 49,
+      "invokeCount": 1,
+      "sourceSize": 889,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/composables/error.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 15
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 15,
+      "invokeCount": 1,
+      "sourceSize": 1236,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/composables/manifest.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 55
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 55,
+      "invokeCount": 1,
+      "sourceSize": 984,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/composables/payload.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 55
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:build-import-analysis",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 55,
+      "invokeCount": 1,
+      "sourceSize": 3862,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/composables/preload.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 6
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 6,
+      "invokeCount": 1,
+      "sourceSize": 1600,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/composables/ready.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 56
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 56,
+      "invokeCount": 1,
+      "sourceSize": 412,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/composables/router.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 67
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 67,
+      "invokeCount": 1,
+      "sourceSize": 5939,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/config.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 32
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:define",
+          "transform": 151
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 183,
+      "invokeCount": 1,
+      "sourceSize": 1574,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/entry.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1
+        },
+        {
+          "name": "replace",
+          "transform": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 3,
+      "invokeCount": 1,
+      "sourceSize": 2382,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 91
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "unctx:transform",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 92,
+      "invokeCount": 1,
+      "sourceSize": 356,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/nuxt.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 18
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:define",
+          "transform": 75
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 112
+        },
+        {
+          "name": "alias",
+          "resolveId": 57
+        }
+      ],
+      "virtual": false,
+      "totalTime": 94,
+      "invokeCount": 1,
+      "sourceSize": 7278,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/plugins/check-outdated-build.client.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 39
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 39,
+      "invokeCount": 1,
+      "sourceSize": 795,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/plugins/chunk-reload.client.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 45
+        }
+      ],
+      "virtual": false,
+      "totalTime": 45,
+      "invokeCount": 1,
+      "sourceSize": 1042,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/plugins/payload.client.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 37
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 37,
+      "invokeCount": 1,
+      "sourceSize": 1107,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/plugins/revive-payload.client.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 30
+        },
+        {
+          "name": "unctx:transform",
+          "transform": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 32,
+      "invokeCount": 1,
+      "sourceSize": 1661,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/plugins/router.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 40
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 40,
+      "invokeCount": 1,
+      "sourceSize": 7126,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/utils.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 15
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 15,
+      "invokeCount": 1,
+      "sourceSize": 84,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/head/runtime/plugins/unhead.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 36
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 36,
+      "invokeCount": 1,
+      "sourceSize": 1315,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/ofetch/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 13
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 13,
+      "invokeCount": 1,
+      "sourceSize": 891,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/ofetch/dist/shared/ofetch.00501375.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 63
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 63,
+      "invokeCount": 1,
+      "sourceSize": 8818,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/ohash/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 73
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 73,
+      "invokeCount": 1,
+      "sourceSize": 20179,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/pathe/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 26
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 26,
+      "invokeCount": 1,
+      "sourceSize": 272,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/pathe/dist/shared/pathe.ff20891b.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 122
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 122,
+      "invokeCount": 1,
+      "sourceSize": 6539,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/radix3/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 72
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 72,
       "invokeCount": 1,
       "sourceSize": 7089,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/ufo/dist/index.mjs",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/ufo/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 44
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 44,
+      "invokeCount": 1,
+      "sourceSize": 18202,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/uncrypto/dist/crypto.web.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 70
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 70,
+      "invokeCount": 1,
+      "sourceSize": 348,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/unctx/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 55
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 55,
+      "invokeCount": 1,
+      "sourceSize": 3878,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/unenv/runtime/_internal/utils.mjs",
       "deps": [],
       "plugins": [
         {
@@ -2170,31 +1938,11 @@
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
           "resolveId": 0
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 7
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 2
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
+          "resolveId": 0
         },
         {
           "name": "vite:resolve",
@@ -2204,81 +1952,16 @@
       "virtual": false,
       "totalTime": 131,
       "invokeCount": 1,
-      "sourceSize": 18202,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/uncrypto/dist/crypto.web.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 208
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 4
-        }
-      ],
-      "virtual": false,
-      "totalTime": 208,
-      "invokeCount": 1,
-      "sourceSize": 348,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/unctx/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 178
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 178,
-      "invokeCount": 1,
-      "sourceSize": 3878,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/unenv/runtime/_internal/utils.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 309
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 309,
-      "invokeCount": 1,
       "sourceSize": 895,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/unenv/runtime/node/events/_events.mjs",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/unenv/runtime/node/events/_events.mjs",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 201
+          "transform": 5
         },
         {
           "name": "vite:resolve",
@@ -2286,18 +1969,18 @@
         }
       ],
       "virtual": false,
-      "totalTime": 201,
+      "totalTime": 5,
       "invokeCount": 1,
       "sourceSize": 6481,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/unenv/runtime/node/events/index.mjs",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/unenv/runtime/node/events/index.mjs",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 104
+          "transform": 13
         },
         {
           "name": "vite:resolve",
@@ -2309,121 +1992,121 @@
         }
       ],
       "virtual": false,
-      "totalTime": 104,
+      "totalTime": 13,
       "invokeCount": 1,
       "sourceSize": 218,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/unenv/runtime/node/http/_request.mjs",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/unenv/runtime/node/http/_request.mjs",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 207
+          "transform": 69
         },
         {
           "name": "vite:resolve",
-          "resolveId": 2
+          "resolveId": 1
         }
       ],
       "virtual": false,
-      "totalTime": 207,
+      "totalTime": 69,
       "invokeCount": 1,
       "sourceSize": 1129,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/unenv/runtime/node/http/_response.mjs",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/unenv/runtime/node/http/_response.mjs",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 207
+          "transform": 70
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
+          "resolveId": 0
         }
       ],
       "virtual": false,
-      "totalTime": 207,
+      "totalTime": 70,
       "invokeCount": 1,
       "sourceSize": 2193,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/unenv/runtime/node/net/socket.mjs",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/unenv/runtime/node/net/socket.mjs",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 308
+          "transform": 130
         },
         {
           "name": "vite:resolve",
-          "resolveId": 2
+          "resolveId": 0
         }
       ],
       "virtual": false,
-      "totalTime": 308,
+      "totalTime": 130,
       "invokeCount": 1,
       "sourceSize": 1425,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/unenv/runtime/node/stream/duplex.mjs",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/unenv/runtime/node/stream/duplex.mjs",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 108
+          "transform": 14
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
+          "resolveId": 0
         }
       ],
       "virtual": false,
-      "totalTime": 108,
+      "totalTime": 14,
       "invokeCount": 1,
       "sourceSize": 678,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/unenv/runtime/node/stream/readable.mjs",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/unenv/runtime/node/stream/readable.mjs",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 310
+          "transform": 131
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
+          "resolveId": 0
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
+          "resolveId": 0
         }
       ],
       "virtual": false,
-      "totalTime": 310,
+      "totalTime": 131,
       "invokeCount": 1,
       "sourceSize": 2697,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/unenv/runtime/node/stream/writable.mjs",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/unenv/runtime/node/stream/writable.mjs",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 304
+          "transform": 136
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
+          "resolveId": 0
         },
         {
           "name": "vite:resolve",
@@ -2431,22 +2114,22 @@
         }
       ],
       "virtual": false,
-      "totalTime": 304,
+      "totalTime": 136,
       "invokeCount": 1,
       "sourceSize": 2357,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/unhead/dist/index.mjs",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/unhead/dist/index.mjs",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 170
+          "transform": 59
         },
         {
           "name": "vite:resolve",
-          "resolveId": 2
+          "resolveId": 1
         },
         {
           "name": "vite:resolve",
@@ -2454,45 +2137,167 @@
         }
       ],
       "virtual": false,
-      "totalTime": 170,
+      "totalTime": 59,
       "invokeCount": 1,
       "sourceSize": 20887,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/vue-router/dist/vue-router.mjs",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/vue-router/dist/vue-router.mjs",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 262
+          "transform": 31
         },
         {
           "name": "vite:define",
-          "transform": 243
+          "transform": 178
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
+          "resolveId": 0
         }
       ],
       "virtual": false,
-      "totalTime": 505,
+      "totalTime": 209,
       "invokeCount": 1,
       "sourceSize": 147386,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/public/client/app.config.mjs",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 126
+          "transform": 15
         },
         {
           "name": "vite:define",
-          "transform": 31
+          "transform": 63
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 78,
+      "invokeCount": 1,
+      "sourceSize": 580,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/node_modules/defu/dist/defu.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 2052,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/public/client/app.config.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 6
+        },
+        {
+          "name": "vite:define",
+          "transform": 19
         },
         {
           "name": "alias",
@@ -2500,36 +2305,13 @@
         }
       ],
       "virtual": false,
-      "totalTime": 157,
+      "totalTime": 25,
       "invokeCount": 1,
       "sourceSize": 391,
       "distSize": 0
     },
     {
-      "id": "virtual:nuxt:E:/test/github/laravel-nuxt-template/laravel/public/client/app-component.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "virtual",
-          "transform": 0
-        },
-        {
-          "name": "virtual",
-          "resolveId": 0
-        },
-        {
-          "name": "alias",
-          "resolveId": 3
-        }
-      ],
-      "virtual": true,
-      "totalTime": 0,
-      "invokeCount": 1,
-      "sourceSize": 137,
-      "distSize": 0
-    },
-    {
-      "id": "virtual:nuxt:E:/test/github/laravel-nuxt-template/laravel/public/client/components.islands.mjs",
+      "id": "virtual:nuxt:/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/public/client/app-component.mjs",
       "deps": [],
       "plugins": [
         {
@@ -2543,6 +2325,29 @@
         {
           "name": "alias",
           "resolveId": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 152,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/public/client/components.islands.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 0
         }
       ],
       "virtual": true,
@@ -2552,7 +2357,7 @@
       "distSize": 0
     },
     {
-      "id": "virtual:nuxt:E:/test/github/laravel-nuxt-template/laravel/public/client/components.plugin.mjs",
+      "id": "virtual:nuxt:/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/public/client/components.plugin.mjs",
       "deps": [],
       "plugins": [
         {
@@ -2571,7 +2376,7 @@
       "distSize": 0
     },
     {
-      "id": "virtual:nuxt:E:/test/github/laravel-nuxt-template/laravel/public/client/css.mjs",
+      "id": "virtual:nuxt:/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/public/client/css.mjs",
       "deps": [],
       "plugins": [
         {
@@ -2580,11 +2385,11 @@
         },
         {
           "name": "alias",
-          "resolveId": 9
+          "resolveId": 3
         },
         {
           "name": "ssr-styles",
-          "resolveId": 9
+          "resolveId": 3
         }
       ],
       "virtual": true,
@@ -2594,7 +2399,30 @@
       "distSize": 0
     },
     {
-      "id": "virtual:nuxt:E:/test/github/laravel-nuxt-template/laravel/public/client/error-component.mjs",
+      "id": "virtual:nuxt:/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/public/client/error-component.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 151,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/public/client/fetch.mjs",
       "deps": [],
       "plugins": [
         {
@@ -2608,29 +2436,6 @@
         {
           "name": "alias",
           "resolveId": 3
-        }
-      ],
-      "virtual": true,
-      "totalTime": 0,
-      "invokeCount": 1,
-      "sourceSize": 129,
-      "distSize": 0
-    },
-    {
-      "id": "virtual:nuxt:E:/test/github/laravel-nuxt-template/laravel/public/client/fetch.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "virtual",
-          "transform": 0
-        },
-        {
-          "name": "virtual",
-          "resolveId": 0
-        },
-        {
-          "name": "alias",
-          "resolveId": 9
         }
       ],
       "virtual": true,
@@ -2640,30 +2445,7 @@
       "distSize": 0
     },
     {
-      "id": "virtual:nuxt:E:/test/github/laravel-nuxt-template/laravel/public/client/middleware.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "virtual",
-          "transform": 0
-        },
-        {
-          "name": "virtual",
-          "resolveId": 1
-        },
-        {
-          "name": "alias",
-          "resolveId": 3
-        }
-      ],
-      "virtual": true,
-      "totalTime": 0,
-      "invokeCount": 1,
-      "sourceSize": 240,
-      "distSize": 0
-    },
-    {
-      "id": "virtual:nuxt:E:/test/github/laravel-nuxt-template/laravel/public/client/nitro.client.mjs",
+      "id": "virtual:nuxt:/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/public/client/middleware.mjs",
       "deps": [],
       "plugins": [
         {
@@ -2676,7 +2458,30 @@
         },
         {
           "name": "alias",
-          "resolveId": 72
+          "resolveId": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 262,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/public/client/nitro.client.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
         }
       ],
       "virtual": true,
@@ -2686,7 +2491,7 @@
       "distSize": 0
     },
     {
-      "id": "virtual:nuxt:E:/test/github/laravel-nuxt-template/laravel/public/client/nuxt.config.mjs",
+      "id": "virtual:nuxt:/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/public/client/nuxt.config.mjs",
       "deps": [],
       "plugins": [
         {
@@ -2723,11 +2528,15 @@
         },
         {
           "name": "alias",
-          "resolveId": 8
+          "resolveId": 3
         },
         {
           "name": "alias",
-          "resolveId": 3
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 0
         },
         {
           "name": "alias",
@@ -2735,15 +2544,11 @@
         },
         {
           "name": "alias",
-          "resolveId": 3
+          "resolveId": 0
         },
         {
           "name": "alias",
-          "resolveId": 2
-        },
-        {
-          "name": "alias",
-          "resolveId": 2
+          "resolveId": 1
         },
         {
           "name": "alias",
@@ -2757,7 +2562,7 @@
       "distSize": 0
     },
     {
-      "id": "virtual:nuxt:E:/test/github/laravel-nuxt-template/laravel/public/client/paths.mjs",
+      "id": "virtual:nuxt:/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/public/client/paths.mjs",
       "deps": [],
       "plugins": [
         {
@@ -2786,19 +2591,19 @@
         },
         {
           "name": "alias",
-          "resolveId": 9
-        },
-        {
-          "name": "alias",
-          "resolveId": 2
-        },
-        {
-          "name": "alias",
-          "resolveId": 2
+          "resolveId": 3
         },
         {
           "name": "alias",
           "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 0
         }
       ],
       "virtual": true,
@@ -2808,53 +2613,7 @@
       "distSize": 0
     },
     {
-      "id": "virtual:nuxt:E:/test/github/laravel-nuxt-template/laravel/public/client/plugins/client.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "virtual",
-          "transform": 0
-        },
-        {
-          "name": "virtual",
-          "resolveId": 0
-        },
-        {
-          "name": "alias",
-          "resolveId": 8
-        }
-      ],
-      "virtual": true,
-      "totalTime": 0,
-      "invokeCount": 1,
-      "sourceSize": 1218,
-      "distSize": 0
-    },
-    {
-      "id": "virtual:nuxt:E:/test/github/laravel-nuxt-template/laravel/public/client/root-component.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "virtual",
-          "transform": 0
-        },
-        {
-          "name": "virtual",
-          "resolveId": 0
-        },
-        {
-          "name": "alias",
-          "resolveId": 8
-        }
-      ],
-      "virtual": true,
-      "totalTime": 0,
-      "invokeCount": 1,
-      "sourceSize": 123,
-      "distSize": 0
-    },
-    {
-      "id": "virtual:nuxt:E:/test/github/laravel-nuxt-template/laravel/public/client/test-component-wrapper.mjs",
+      "id": "virtual:nuxt:/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/public/client/plugins/client.mjs",
       "deps": [],
       "plugins": [
         {
@@ -2873,11 +2632,11 @@
       "virtual": true,
       "totalTime": 0,
       "invokeCount": 1,
-      "sourceSize": 132,
+      "sourceSize": 1373,
       "distSize": 0
     },
     {
-      "id": "virtual:nuxt:E:/test/github/laravel-nuxt-template/laravel/public/client/unhead-plugins.mjs",
+      "id": "virtual:nuxt:/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/public/client/root-component.mjs",
       "deps": [],
       "plugins": [
         {
@@ -2890,7 +2649,53 @@
         },
         {
           "name": "alias",
-          "resolveId": 2
+          "resolveId": 3
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 145,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/public/client/test-component-wrapper.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 154,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/public/client/unhead-plugins.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
         }
       ],
       "virtual": true,
@@ -2902,215 +2707,46 @@
   ],
   "ssrModules": [
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/client/node_modules/@nuxt/ui-templates/dist/templates/welcome.vue",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 47
+          "transform": 2
         },
         {
           "name": "vite:vue",
-          "transform": 72
-        },
-        {
-          "name": "vite:define",
-          "transform": 38
+          "transform": 2
         },
         {
           "name": "nuxt:imports-transform",
-          "transform": 22
-        },
-        {
-          "name": "nuxt:imports-transform",
-          "transform": 22
-        }
-      ],
-      "virtual": false,
-      "totalTime": 201,
-      "invokeCount": 1,
-      "sourceSize": 106155,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/client/node_modules/@nuxt/ui-templates/dist/templates/welcome.vue?vue&type=style&index=0&scoped=46326706&lang.css",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:vue",
-          "transform": 0
-        },
-        {
-          "name": "vite:css",
-          "transform": 62
-        },
-        {
-          "name": "vite:vue",
-          "transform": 11
-        }
-      ],
-      "virtual": true,
-      "totalTime": 73,
-      "invokeCount": 1,
-      "sourceSize": 11760,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/client/node_modules/@nuxt/ui-templates/dist/templates/welcome.vue?vue&type=style&index=0&scoped=46326706&lang.css?inline&used",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:vue",
-          "transform": 0
-        },
-        {
-          "name": "vite:css",
-          "transform": 85
-        },
-        {
-          "name": "vite:vue",
-          "transform": 30
-        },
-        {
-          "name": "vite:css-post",
-          "transform": 0
-        }
-      ],
-      "virtual": true,
-      "totalTime": 115,
-      "invokeCount": 1,
-      "sourceSize": 11760,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/client/node_modules/@unhead/vue/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 244
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 2
-        }
-      ],
-      "virtual": false,
-      "totalTime": 244,
-      "invokeCount": 1,
-      "sourceSize": 3864,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/client/node_modules/@unhead/vue/dist/shared/vue.cf295fb1.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
           "transform": 1
         },
         {
-          "name": "vite:define",
-          "transform": 6
+          "name": "nuxt:imports-transform",
+          "transform": 1
         },
         {
-          "name": "vite:resolve",
-          "resolveId": 1
+          "name": "nuxt:components-loader",
+          "transform": 0
         },
         {
           "name": "vite:resolve",
           "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 7,
-      "invokeCount": 1,
-      "sourceSize": 2633,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/client/node_modules/@unhead/vue/dist/shared/vue.f36acd1f.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 2
-        },
-        {
-          "name": "nuxt:tree-shake-composables:transform",
-          "transform": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 3,
-      "invokeCount": 1,
-      "sourceSize": 1035,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/client/node_modules/unctx/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 205
-        },
-        {
-          "name": "vite:define",
-          "transform": 113
-        }
-      ],
-      "virtual": false,
-      "totalTime": 318,
-      "invokeCount": 1,
-      "sourceSize": 3878,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 150
-        },
-        {
-          "name": "vite:vue",
-          "transform": 3
-        },
-        {
-          "name": "nuxt:imports-transform",
-          "transform": 2
-        },
-        {
-          "name": "nuxt:imports-transform",
-          "transform": 2
-        },
-        {
-          "name": "nuxt:components-loader",
-          "transform": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
         },
         {
           "name": "ssr-styles",
-          "resolveId": 2
+          "resolveId": 0
         }
       ],
       "virtual": false,
-      "totalTime": 158,
+      "totalTime": 6,
       "invokeCount": 1,
       "sourceSize": 5283,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=c3e7ddbd&lang.css",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=8e38b8ef&lang.css",
       "deps": [],
       "plugins": [
         {
@@ -3119,106 +2755,21 @@
         },
         {
           "name": "vite:css",
-          "transform": 33
-        },
-        {
-          "name": "vite:vue",
-          "transform": 4
-        }
-      ],
-      "virtual": true,
-      "totalTime": 37,
-      "invokeCount": 1,
-      "sourceSize": 3195,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=c3e7ddbd&lang.css?inline&used",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:vue",
-          "transform": 0
-        },
-        {
-          "name": "vite:css",
-          "transform": 16
-        },
-        {
-          "name": "vite:vue",
           "transform": 5
         },
         {
-          "name": "vite:css-post",
-          "transform": 0
+          "name": "vite:vue",
+          "transform": 2
         }
       ],
       "virtual": true,
-      "totalTime": 21,
+      "totalTime": 7,
       "invokeCount": 1,
       "sourceSize": 3195,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 190
-        },
-        {
-          "name": "vite:vue",
-          "transform": 4
-        },
-        {
-          "name": "nuxt:imports-transform",
-          "transform": 2
-        },
-        {
-          "name": "nuxt:imports-transform",
-          "transform": 2
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "ssr-styles",
-          "resolveId": 2
-        }
-      ],
-      "virtual": false,
-      "totalTime": 198,
-      "invokeCount": 1,
-      "sourceSize": 3283,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=020ddbd6&lang.css",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:vue",
-          "transform": 0
-        },
-        {
-          "name": "vite:css",
-          "transform": 6
-        },
-        {
-          "name": "vite:vue",
-          "transform": 2
-        }
-      ],
-      "virtual": true,
-      "totalTime": 8,
-      "invokeCount": 1,
-      "sourceSize": 1494,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=020ddbd6&lang.css?inline&used",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=8e38b8ef&lang.css?inline&used",
       "deps": [],
       "plugins": [
         {
@@ -3231,7 +2782,7 @@
         },
         {
           "name": "vite:vue",
-          "transform": 3
+          "transform": 1
         },
         {
           "name": "vite:css-post",
@@ -3239,48 +2790,48 @@
         }
       ],
       "virtual": true,
-      "totalTime": 10,
+      "totalTime": 8,
       "invokeCount": 1,
-      "sourceSize": 1494,
+      "sourceSize": 3195,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 183
+          "transform": 22
         },
         {
           "name": "vite:vue",
-          "transform": 4
-        },
-        {
-          "name": "nuxt:imports-transform",
           "transform": 2
         },
         {
           "name": "nuxt:imports-transform",
-          "transform": 2
+          "transform": 0
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 0
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
+          "resolveId": 0
         },
         {
           "name": "ssr-styles",
-          "resolveId": 2
+          "resolveId": 0
         }
       ],
       "virtual": false,
-      "totalTime": 191,
+      "totalTime": 24,
       "invokeCount": 1,
-      "sourceSize": 4089,
+      "sourceSize": 3283,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=9878c78e&lang.css",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=5741bfc2&lang.css",
       "deps": [],
       "plugins": [
         {
@@ -3289,38 +2840,192 @@
         },
         {
           "name": "vite:css",
-          "transform": 11
+          "transform": 3
         },
         {
           "name": "vite:vue",
-          "transform": 3
+          "transform": 1
         }
       ],
       "virtual": true,
-      "totalTime": 14,
+      "totalTime": 4,
+      "invokeCount": 1,
+      "sourceSize": 1494,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=5741bfc2&lang.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 4
+        },
+        {
+          "name": "vite:vue",
+          "transform": 1
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 5,
+      "invokeCount": 1,
+      "sourceSize": 1494,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 16
+        },
+        {
+          "name": "vite:vue",
+          "transform": 5
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 1
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 23,
+      "invokeCount": 1,
+      "sourceSize": 4089,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=d632b7e6&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 5
+        },
+        {
+          "name": "vite:vue",
+          "transform": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 6,
       "invokeCount": 1,
       "sourceSize": 1946,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@unhead/vue/dist/index.mjs",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@nuxt/ui-templates/dist/templates/welcome.vue",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 31
+          "transform": 17
         },
         {
-          "name": "vite:resolve",
-          "resolveId": 3
+          "name": "vite:vue",
+          "transform": 26
         },
         {
-          "name": "vite:resolve",
-          "resolveId": 0
+          "name": "vite:define",
+          "transform": 88
         },
         {
-          "name": "vite:resolve",
-          "resolveId": 2
+          "name": "nuxt:imports-transform",
+          "transform": 6
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 6
+        }
+      ],
+      "virtual": false,
+      "totalTime": 143,
+      "invokeCount": 1,
+      "sourceSize": 106155,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@nuxt/ui-templates/dist/templates/welcome.vue?vue&type=style&index=0&scoped=46326706&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 16
+        },
+        {
+          "name": "vite:vue",
+          "transform": 4
+        }
+      ],
+      "virtual": true,
+      "totalTime": 20,
+      "invokeCount": 1,
+      "sourceSize": 11760,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@nuxt/ui-templates/dist/templates/welcome.vue?vue&type=style&index=0&scoped=46326706&lang.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 23
+        },
+        {
+          "name": "vite:vue",
+          "transform": 5
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 29,
+      "invokeCount": 1,
+      "sourceSize": 11760,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@unhead/vue/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 6
         },
         {
           "name": "vite:resolve",
@@ -3329,29 +3034,45 @@
         {
           "name": "vite:resolve",
           "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
         }
       ],
       "virtual": false,
-      "totalTime": 31,
+      "totalTime": 6,
       "invokeCount": 1,
       "sourceSize": 3864,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@unhead/vue/dist/shared/vue.cf295fb1.mjs",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@unhead/vue/dist/shared/vue.cf295fb1.mjs",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 123
+          "transform": 13
         },
         {
           "name": "vite:define",
-          "transform": 65
+          "transform": 44
         },
         {
           "name": "vite:resolve",
-          "resolveId": 3
+          "resolveId": 1
         },
         {
           "name": "vite:resolve",
@@ -3359,41 +3080,41 @@
         }
       ],
       "virtual": false,
-      "totalTime": 188,
+      "totalTime": 57,
       "invokeCount": 1,
       "sourceSize": 2633,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/@unhead/vue/dist/shared/vue.f36acd1f.mjs",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/@unhead/vue/dist/shared/vue.f36acd1f.mjs",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 128
+          "transform": 13
         },
         {
           "name": "nuxt:tree-shake-composables:transform",
-          "transform": 2
+          "transform": 0
         },
         {
           "name": "vite:resolve",
-          "resolveId": 2
+          "resolveId": 0
         }
       ],
       "virtual": false,
-      "totalTime": 130,
+      "totalTime": 13,
       "invokeCount": 1,
       "sourceSize": 1035,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/compat/idle-callback.js",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/compat/idle-callback.js",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 4
+          "transform": 2
         },
         {
           "name": "replace",
@@ -3409,18 +3130,18 @@
         }
       ],
       "virtual": false,
-      "totalTime": 4,
+      "totalTime": 2,
       "invokeCount": 1,
       "sourceSize": 456,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/components/injections.js",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/components/injections.js",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 32
+          "transform": 13
         },
         {
           "name": "vite:resolve",
@@ -3428,22 +3149,22 @@
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
+          "resolveId": 0
         }
       ],
       "virtual": false,
-      "totalTime": 32,
+      "totalTime": 13,
       "invokeCount": 1,
       "sourceSize": 103,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/components/island-renderer.js",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/components/island-renderer.js",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 34
+          "transform": 13
         },
         {
           "name": "vite:resolve",
@@ -3451,22 +3172,22 @@
         }
       ],
       "virtual": false,
-      "totalTime": 34,
+      "totalTime": 13,
       "invokeCount": 1,
       "sourceSize": 711,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/components/nuxt-error-page.vue",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/components/nuxt-error-page.vue",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 35
+          "transform": 13
         },
         {
           "name": "vite:vue",
-          "transform": 8
+          "transform": 3
         },
         {
           "name": "replace",
@@ -3474,44 +3195,13 @@
         }
       ],
       "virtual": false,
-      "totalTime": 43,
+      "totalTime": 16,
       "invokeCount": 1,
       "sourceSize": 1688,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/components/nuxt-link.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 80
-        },
-        {
-          "name": "replace",
-          "transform": 1
-        },
-        {
-          "name": "vite:define",
-          "transform": 13
-        },
-        {
-          "name": "nuxt:tree-shake-composables:transform",
-          "transform": 4
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 3
-        }
-      ],
-      "virtual": false,
-      "totalTime": 98,
-      "invokeCount": 1,
-      "sourceSize": 10679,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/components/nuxt-root.vue",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/components/nuxt-link.js",
       "deps": [],
       "plugins": [
         {
@@ -3519,8 +3209,39 @@
           "transform": 24
         },
         {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:define",
+          "transform": 6
+        },
+        {
+          "name": "nuxt:tree-shake-composables:transform",
+          "transform": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 32,
+      "invokeCount": 1,
+      "sourceSize": 10679,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/components/nuxt-root.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 8
+        },
+        {
           "name": "vite:vue",
-          "transform": 13
+          "transform": 6
         },
         {
           "name": "replace",
@@ -3528,138 +3249,22 @@
         },
         {
           "name": "vite:define",
-          "transform": 34
+          "transform": 11
         }
       ],
       "virtual": false,
-      "totalTime": 71,
+      "totalTime": 25,
       "invokeCount": 1,
       "sourceSize": 2456,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/composables/error.js",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/composables/error.js",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 23
-        },
-        {
-          "name": "replace",
-          "transform": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 24,
-      "invokeCount": 1,
-      "sourceSize": 1236,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/composables/manifest.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 153
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 153,
-      "invokeCount": 1,
-      "sourceSize": 984,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/composables/payload.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 29
-        },
-        {
-          "name": "replace",
-          "transform": 1
-        },
-        {
-          "name": "vite:define",
-          "transform": 16
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 46,
-      "invokeCount": 1,
-      "sourceSize": 3862,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/composables/preload.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 2
-        },
-        {
-          "name": "replace",
-          "transform": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 3,
-      "invokeCount": 1,
-      "sourceSize": 1600,
-      "distSize": 0
-    },
-    {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/composables/ready.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 3
+          "transform": 9
         },
         {
           "name": "replace",
@@ -3667,22 +3272,65 @@
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
         }
       ],
       "virtual": false,
-      "totalTime": 3,
+      "totalTime": 9,
       "invokeCount": 1,
-      "sourceSize": 412,
+      "sourceSize": 1236,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/composables/router.js",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/composables/manifest.js",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 41
+          "transform": 18
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 18,
+      "invokeCount": 1,
+      "sourceSize": 984,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/composables/payload.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 11
         },
         {
           "name": "replace",
@@ -3695,26 +3343,25 @@
         {
           "name": "vite:resolve",
           "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 25,
+      "invokeCount": 1,
+      "sourceSize": 3862,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/composables/preload.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1
         },
         {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
+          "name": "replace",
+          "transform": 0
         },
         {
           "name": "vite:resolve",
@@ -3722,18 +3369,92 @@
         }
       ],
       "virtual": false,
-      "totalTime": 55,
+      "totalTime": 1,
+      "invokeCount": 1,
+      "sourceSize": 1600,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/composables/ready.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 2
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 2,
+      "invokeCount": 1,
+      "sourceSize": 412,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/composables/router.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 16
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:define",
+          "transform": 15
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 31,
       "invokeCount": 1,
       "sourceSize": 5939,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/config.js",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/config.js",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 92
+          "transform": 16
         },
         {
           "name": "replace",
@@ -3741,7 +3462,7 @@
         },
         {
           "name": "vite:define",
-          "transform": 8
+          "transform": 3
         },
         {
           "name": "vite:resolve",
@@ -3757,45 +3478,45 @@
         }
       ],
       "virtual": false,
-      "totalTime": 100,
+      "totalTime": 19,
       "invokeCount": 1,
       "sourceSize": 1574,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/entry.js",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/entry.js",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 1
+          "transform": 0
         },
         {
           "name": "replace",
-          "transform": 1
+          "transform": 0
         },
         {
           "name": "vite:define",
-          "transform": 119
+          "transform": 30
         }
       ],
       "virtual": false,
-      "totalTime": 121,
+      "totalTime": 30,
       "invokeCount": 1,
       "sourceSize": 2382,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 118
+          "transform": 52
         },
         {
           "name": "replace",
-          "transform": 1
+          "transform": 0
         },
         {
           "name": "unctx:transform",
@@ -3807,18 +3528,18 @@
         }
       ],
       "virtual": false,
-      "totalTime": 119,
+      "totalTime": 52,
       "invokeCount": 1,
       "sourceSize": 356,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/nuxt.js",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/nuxt.js",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 20
+          "transform": 7
         },
         {
           "name": "replace",
@@ -3826,11 +3547,7 @@
         },
         {
           "name": "vite:define",
-          "transform": 4
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
+          "transform": 17
         },
         {
           "name": "vite:resolve",
@@ -3846,15 +3563,23 @@
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
+          "resolveId": 0
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
+          "resolveId": 0
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
         },
         {
           "name": "vite:resolve",
@@ -3867,10 +3592,6 @@
         {
           "name": "vite:resolve",
           "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
         },
         {
           "name": "vite:resolve",
@@ -3878,15 +3599,15 @@
         },
         {
           "name": "alias",
-          "resolveId": 52
+          "resolveId": 24
         },
         {
           "name": "alias",
-          "resolveId": 4
+          "resolveId": 8
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
+          "resolveId": 0
         }
       ],
       "virtual": false,
@@ -3896,27 +3617,27 @@
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/plugins/revive-payload.server.js",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/plugins/revive-payload.server.js",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 43
+          "transform": 15
         }
       ],
       "virtual": false,
-      "totalTime": 43,
+      "totalTime": 15,
       "invokeCount": 1,
       "sourceSize": 1177,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/plugins/router.js",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/plugins/router.js",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 39
+          "transform": 14
         },
         {
           "name": "replace",
@@ -3924,41 +3645,41 @@
         },
         {
           "name": "vite:define",
-          "transform": 27
+          "transform": 16
         }
       ],
       "virtual": false,
-      "totalTime": 67,
+      "totalTime": 31,
       "invokeCount": 1,
       "sourceSize": 7126,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/app/utils.js",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/app/utils.js",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 3
+          "transform": 1
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
+          "resolveId": 0
         }
       ],
       "virtual": false,
-      "totalTime": 3,
+      "totalTime": 1,
       "invokeCount": 1,
       "sourceSize": 84,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/node_modules/nuxt/dist/head/runtime/plugins/unhead.js",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/nuxt/dist/head/runtime/plugins/unhead.js",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 34
+          "transform": 12
         },
         {
           "name": "replace",
@@ -3966,63 +3687,55 @@
         }
       ],
       "virtual": false,
-      "totalTime": 34,
+      "totalTime": 12,
       "invokeCount": 1,
       "sourceSize": 1315,
       "distSize": 0
     },
     {
-      "id": "E:/test/github/laravel-nuxt-template/laravel/public/client/app.config.mjs",
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/client/node_modules/unctx/dist/index.mjs",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 18
+          "transform": 53
         },
         {
           "name": "vite:define",
           "transform": 5
-        },
-        {
-          "name": "alias",
-          "resolveId": 2
         }
       ],
       "virtual": false,
-      "totalTime": 23,
+      "totalTime": 58,
+      "invokeCount": 1,
+      "sourceSize": 3878,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/public/client/app.config.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 9
+        },
+        {
+          "name": "vite:define",
+          "transform": 18
+        },
+        {
+          "name": "alias",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 27,
       "invokeCount": 1,
       "sourceSize": 391,
       "distSize": 0
     },
     {
-      "id": "virtual:nuxt:E:/test/github/laravel-nuxt-template/laravel/public/client/app-component.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "virtual",
-          "transform": 0
-        },
-        {
-          "name": "virtual",
-          "resolveId": 0
-        },
-        {
-          "name": "virtual",
-          "resolveId": 0
-        },
-        {
-          "name": "alias",
-          "resolveId": 4
-        }
-      ],
-      "virtual": true,
-      "totalTime": 0,
-      "invokeCount": 2,
-      "sourceSize": 137,
-      "distSize": 0
-    },
-    {
-      "id": "virtual:nuxt:E:/test/github/laravel-nuxt-template/laravel/public/client/components.islands.mjs",
+      "id": "virtual:nuxt:/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/public/client/app-component.mjs",
       "deps": [],
       "plugins": [
         {
@@ -4040,6 +3753,33 @@
         {
           "name": "alias",
           "resolveId": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 2,
+      "sourceSize": 152,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/public/client/components.islands.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 0
         }
       ],
       "virtual": true,
@@ -4049,7 +3789,7 @@
       "distSize": 0
     },
     {
-      "id": "virtual:nuxt:E:/test/github/laravel-nuxt-template/laravel/public/client/components.plugin.mjs",
+      "id": "virtual:nuxt:/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/public/client/components.plugin.mjs",
       "deps": [],
       "plugins": [
         {
@@ -4072,7 +3812,7 @@
       "distSize": 0
     },
     {
-      "id": "virtual:nuxt:E:/test/github/laravel-nuxt-template/laravel/public/client/css.mjs",
+      "id": "virtual:nuxt:/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/public/client/css.mjs",
       "deps": [],
       "plugins": [
         {
@@ -4085,11 +3825,11 @@
         },
         {
           "name": "alias",
-          "resolveId": 8
+          "resolveId": 3
         },
         {
           "name": "ssr-styles",
-          "resolveId": 8
+          "resolveId": 3
         }
       ],
       "virtual": true,
@@ -4099,7 +3839,7 @@
       "distSize": 0
     },
     {
-      "id": "virtual:nuxt:E:/test/github/laravel-nuxt-template/laravel/public/client/error-component.mjs",
+      "id": "virtual:nuxt:/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/public/client/error-component.mjs",
       "deps": [],
       "plugins": [
         {
@@ -4113,135 +3853,33 @@
         {
           "name": "virtual",
           "resolveId": 0
-        },
-        {
-          "name": "alias",
-          "resolveId": 4
-        }
-      ],
-      "virtual": true,
-      "totalTime": 0,
-      "invokeCount": 2,
-      "sourceSize": 129,
-      "distSize": 0
-    },
-    {
-      "id": "virtual:nuxt:E:/test/github/laravel-nuxt-template/laravel/public/client/fetch.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "virtual",
-          "transform": 0
-        },
-        {
-          "name": "virtual",
-          "resolveId": 0
-        },
-        {
-          "name": "virtual",
-          "resolveId": 0
-        },
-        {
-          "name": "alias",
-          "resolveId": 8
-        }
-      ],
-      "virtual": true,
-      "totalTime": 0,
-      "invokeCount": 2,
-      "sourceSize": 168,
-      "distSize": 0
-    },
-    {
-      "id": "virtual:nuxt:E:/test/github/laravel-nuxt-template/laravel/public/client/middleware.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "virtual",
-          "transform": 0
-        },
-        {
-          "name": "virtual",
-          "resolveId": 0
-        },
-        {
-          "name": "virtual",
-          "resolveId": 0
-        },
-        {
-          "name": "alias",
-          "resolveId": 2
-        }
-      ],
-      "virtual": true,
-      "totalTime": 0,
-      "invokeCount": 2,
-      "sourceSize": 240,
-      "distSize": 0
-    },
-    {
-      "id": "virtual:nuxt:E:/test/github/laravel-nuxt-template/laravel/public/client/nuxt.config.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "virtual",
-          "transform": 0
-        },
-        {
-          "name": "virtual",
-          "resolveId": 0
-        },
-        {
-          "name": "virtual",
-          "resolveId": 0
-        },
-        {
-          "name": "virtual",
-          "resolveId": 0
-        },
-        {
-          "name": "virtual",
-          "resolveId": 0
-        },
-        {
-          "name": "virtual",
-          "resolveId": 0
-        },
-        {
-          "name": "virtual",
-          "resolveId": 0
-        },
-        {
-          "name": "virtual",
-          "resolveId": 0
-        },
-        {
-          "name": "virtual",
-          "resolveId": 0
-        },
-        {
-          "name": "virtual",
-          "resolveId": 0
-        },
-        {
-          "name": "virtual",
-          "resolveId": 0
-        },
-        {
-          "name": "alias",
-          "resolveId": 8
         },
         {
           "name": "alias",
           "resolveId": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 2,
+      "sourceSize": 151,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/public/client/fetch.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
         },
         {
-          "name": "alias",
-          "resolveId": 4
+          "name": "virtual",
+          "resolveId": 0
         },
         {
-          "name": "alias",
-          "resolveId": 25
+          "name": "virtual",
+          "resolveId": 0
         },
         {
           "name": "alias",
@@ -4251,11 +3889,113 @@
       "virtual": true,
       "totalTime": 0,
       "invokeCount": 2,
+      "sourceSize": 168,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/public/client/middleware.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 2,
+      "sourceSize": 262,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/public/client/nuxt.config.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 3
+        },
+        {
+          "name": "alias",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 2,
       "sourceSize": 1056,
       "distSize": 0
     },
     {
-      "id": "virtual:nuxt:E:/test/github/laravel-nuxt-template/laravel/public/client/paths.mjs",
+      "id": "virtual:nuxt:/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/public/client/paths.mjs",
       "deps": [],
       "plugins": [
         {
@@ -4292,15 +4032,15 @@
         },
         {
           "name": "alias",
-          "resolveId": 8
+          "resolveId": 3
         },
         {
           "name": "alias",
-          "resolveId": 2
+          "resolveId": 0
         },
         {
           "name": "alias",
-          "resolveId": 25
+          "resolveId": 1
         }
       ],
       "virtual": true,
@@ -4310,7 +4050,7 @@
       "distSize": 0
     },
     {
-      "id": "virtual:nuxt:E:/test/github/laravel-nuxt-template/laravel/public/client/plugins/server.mjs",
+      "id": "virtual:nuxt:/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/public/client/plugins/server.mjs",
       "deps": [],
       "plugins": [
         {
@@ -4327,17 +4067,17 @@
         },
         {
           "name": "alias",
-          "resolveId": 8
+          "resolveId": 3
         }
       ],
       "virtual": true,
       "totalTime": 0,
       "invokeCount": 2,
-      "sourceSize": 660,
+      "sourceSize": 749,
       "distSize": 0
     },
     {
-      "id": "virtual:nuxt:E:/test/github/laravel-nuxt-template/laravel/public/client/root-component.mjs",
+      "id": "virtual:nuxt:/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/public/client/root-component.mjs",
       "deps": [],
       "plugins": [
         {
@@ -4354,17 +4094,17 @@
         },
         {
           "name": "alias",
-          "resolveId": 8
+          "resolveId": 3
         }
       ],
       "virtual": true,
       "totalTime": 0,
       "invokeCount": 2,
-      "sourceSize": 123,
+      "sourceSize": 145,
       "distSize": 0
     },
     {
-      "id": "virtual:nuxt:E:/test/github/laravel-nuxt-template/laravel/public/client/unhead-plugins.mjs",
+      "id": "virtual:nuxt:/Users/akramghaleb/WebProjects/github/laravel-nuxt-template/laravel/public/client/unhead-plugins.mjs",
       "deps": [],
       "plugins": [
         {
@@ -4381,7 +4121,7 @@
         },
         {
           "name": "alias",
-          "resolveId": 4
+          "resolveId": 1
         }
       ],
       "virtual": true,
