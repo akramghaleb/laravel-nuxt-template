@@ -8,7 +8,7 @@ This repository provides a starter template for building web applications using 
 
 ## This project built with Laravel 10 + Nuxt 3 <br>
 
-- This template build with Laravel v10.10 & Nuxt v3.10 
+- This template build with Laravel v11.0 & Nuxt v3.11 
 - This template Support Pinia State Management
 - If you like this work you can <a href="https://github.com/akramghaleb">see more here</a>
 
