@@ -31,10 +31,10 @@ Switch to the repo folder
 cd laravel-nuxt-template
 ```
 
-switch to client folder (nuxt app)
+switch to frontend folder (nuxt app)
 
 ```
-cd client
+cd frontend
 
 cp .env.example .env
 ```
@@ -70,10 +70,10 @@ yarn generate
 bun run generate
 ```
 
-switch to laravel folder (laravel app)
+switch to backend folder (laravel app)
 
 ```
-cd ../laravel
+cd ../backend
 ```
 
 
