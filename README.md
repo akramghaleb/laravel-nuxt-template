@@ -6,7 +6,7 @@
 This repository provides a starter template for building web applications using Laravel as the backend and Nuxt.js as the frontend framework.
 
 
-## This project built with Laravel 10 + Nuxt 3 <br>
+## This project built with Laravel 11 + Nuxt 3 <br>
 
 - This template build with Laravel v11.0 & Nuxt v3.11 
 - This template Support Pinia State Management
