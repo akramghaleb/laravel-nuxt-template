@@ -109,7 +109,9 @@ php artisan serve
 
 You can now access the server at http://localhost:8000
 
-<br><br>
+<br>
+
+---
 
 [Github Repo](https://github.com/akramghaleb/laravel-nuxt-template)
 
