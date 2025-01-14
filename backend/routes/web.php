@@ -3,14 +3,13 @@
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return redirect('/app/');
-});
+Route::get('/{any?}', function ($any = null) {
+    $path = public_path() . '/app/';
+    $path .= $any ? $any . '/index.html' : 'index.html';
 
-Route::get('/app', function() {
-    return File::get(public_path() . '/app/index.html');
-});
+    if (File::exists($path)) {
+        return File::get($path);
+    }
 
-Route::get('/app/{any}', function($any) {
-    return File::get(public_path() .  '/app/'.$any.'/index.html');
-})->where('any', '.+');
+    abort(404); // Return a 404 error if the file doesn't exist
+})->where('any', '^(?!admin|api).*$');
