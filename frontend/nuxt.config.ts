@@ -1,28 +1,27 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: true,
+  payloadextraction: false,
   devtools: { enabled: true },
 
-  modules: ["@pinia/nuxt", '@pinia-plugin-persistedstate/nuxt'],
+  modules: ["@pinia/nuxt", "@pinia-plugin-persistedstate/nuxt"],
   imports: {
-    dirs: ['./stores'],
+    dirs: ["./stores"],
   },
 
   pinia: {
-    autoImports: ['defineStore', 'acceptHMRUpdate'],
+    autoImports: ["defineStore", "acceptHMRUpdate"],
   },
   nitro: {
     output: {
-      publicDir: '../backend/public/app/'
-    }
+      publicDir: "../backend/public/app/",
+    },
   },
   app: {
     baseURL: "/",
     buildAssetsDir: "/app/_nuxt/",
     head: {
-      link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/app/favicon.ico' },
-      ]
-    }
+      link: [{ rel: "icon", type: "image/x-icon", href: "/app/favicon.ico" }],
+    },
   },
-})
+});
