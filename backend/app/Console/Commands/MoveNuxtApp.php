@@ -190,8 +190,7 @@ class MoveNuxtApp extends Command
 
                 // Regex to match the specific async function
                 $codeToRemove = 'async function Zc(e){const t=fetch(e).then(n=>n.text().then(ea));try{return await t}catch(n){console.warn("[nuxt] Cannot load payload ",e,n)}return null}';
-                // $newCode = 'async function Zc(e){const t=fetch("/app"+e).then(n=>n.text().then(ea));try{return await t}catch(n){console.warn("[nuxt] Cannot load payload ",e,n)}return null}';
-                $newCode = 'async function Zc(e){return null}';
+                $newCode = 'async function Zc(e){const a=(!e.includes("/app")?"/app":"")+e;const t=fetch(a).then(n=>n.text().then(ea));try{return await t}catch(n){console.warn("[nuxt] Cannot load payload ",e,n)}return null}';
 
                 // Remove the matched block of code
                 $updatedContent = str_replace($codeToRemove, $newCode, $content);
